@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 *.tex.bak
 *-checkpoint.tex
+*-checkpoint.ipynb

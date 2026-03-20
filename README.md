@@ -25,3 +25,5 @@ Har bir mavzu uchun:
 - Jupyter Notebook
 - LaTeX
 - Python
+
+Kodlar claudie.ai da yozdirilgan(ai). Qog'ozga yozilganidan biroz farq qiladi, tekshiring!

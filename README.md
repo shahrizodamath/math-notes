@@ -26,4 +26,4 @@ Har bir mavzu uchun:
 - LaTeX
 - Python
 
-Kodlar claudie.ai da yozdirilgan(ai). Qog'ozga yozilganidan biroz farq qiladi, tekshiring!
+Kodlar claudie.ai da yozdirilgan(ai).

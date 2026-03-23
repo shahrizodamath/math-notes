@@ -7,7 +7,7 @@ Matematika bo'yicha shaxsiy o'quv konspektlari.
 ```
 math-notes/
 └── discrete_math_notes/
-    └── chapter_1/
+    └── chapter-1/
         └── topic-1/
             ├── notebook.ipynb
             └── notes.pdf

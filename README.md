@@ -20,10 +20,3 @@ Har bir mavzu uchun:
 ## Kitoblar
 1. To'rayev, Azizov — *Diskret matematika va matematik mantiq*
 2. ...
-
-## Texnologiyalar
-- Jupyter Notebook
-- LaTeX
-- Python
-
-Kodlar claudie.ai da yozdirilgan(ai).

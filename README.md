@@ -7,7 +7,7 @@ Matematika bo'yicha shaxsiy o'quv konspektlari.
 ```
 math-notes/
 └── discrete_math_notes/
-    └── discrete_math_notes_chapter_1/
+    └── chapter_1/
         └── topic-1/
             ├── notebook.ipynb
             └── notes.pdf
@@ -20,10 +20,3 @@ Har bir mavzu uchun:
 ## Kitoblar
 1. To'rayev, Azizov — *Diskret matematika va matematik mantiq*
 2. ...
-
-## Texnologiyalar
-- Jupyter Notebook
-- LaTeX
-- Python
-
-Kodlar claudie.ai da yozdirilgan(ai).

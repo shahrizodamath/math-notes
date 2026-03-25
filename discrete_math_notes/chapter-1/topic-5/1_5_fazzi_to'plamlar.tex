@@ -10,6 +10,7 @@
 \usepackage{caption}
 \usepackage{fontawesome5}
 \usepackage{tcolorbox}
+\usetikzlibrary{shapes, backgrounds}
 
 \addto\captionsuzbek{\renewcommand{\tablename}{Jadval}}
 
@@ -72,9 +73,52 @@
 	\begin{quote}
 		\faExclamationTriangle\ \textbf{Eslatma:} Bularning hech biri integral, summa yoki taqsimot jadvali emas!
 	\end{quote}
+
+
+Masalan, $A=\frac{0.2}{3}+\frac{0.2}{4}+\frac{0.5}{6}+\frac{0.7}{7}+\frac{0.3}{8}$
+
+\begin{itemize}
+	\item $\sup_{a\in X}\mu_A(x)$ - $A$ fazzi to'plam balandligi;
+	\item Balandligi $1$ ga teng fazzi to'plam - normal fazzi to'plam;
+	\item $1$ dan kichik - subnormal fazzi to'plam:
+	\item Faqat bitta tashuvchisining a'zolik darajasi $1$ ga teng to'plam - unimodal fazzi to'plam;
+	\item Subnormalni normalga aylantirish:
 	
+	\[\mu_A(x):=\frac{\mu_A(x)}{\sup_{x\in X}\mu_A(x)}\]
 	
-\end{document}
+	\item $A$ va $B$ $X$ universal to'plamda a'zolik funksiyalari $\mu_A(x)$ va $\mu_B(x)$ bo'lgan fazzi to'plamlari bo'lsin.
+	Agar har bir $x\in X$ element uchun $\mu_A(x)=\mu_B(x)$ bo'lsa, $A$ va $B$ fazzi to'plamlar teng deyiladi. Belgilanishi:
+
+	\[A=B\]
+	
+	Tenglik o'rniga ekvivalentlik ham qo'llaniladi:
+	
+	\[A\sim B\]
+	
+	\item Agar barcha $x\in X$ uchun $\mu_A(x)=0$ bo'lsa, $A$ bo'sh fazzi to'plam deyiladi va $A=\varnothing $ kabi belgilanadi.
+	
+	\item Agar barcha $x\in X$ uchun $\mu_A(x)\leqslant \mu_B(x)$ bo'lsa, $A$ fazzi to'plam $B$ fazzi to'plamning qismi deyiladi: $A\subseteq B$
+	
+	\item Agar $\mu_B(x)=1-\mu_A(x)$ bo'lsa, $A$ va $B$ fazzi to'plamlar bir-birini to'ldiradi deyiladi: $B=\bar{A}$
+\end{itemize}
+
+\subsection{Fazzi to'plamlar ustida amallar}
+
+\begin{itemize}
+	\item $\mu_{A\cup B}(x)=\max{\mu_A(x), \mu_B(x)}$ - $A \cup B$ fazzi to'plamning a'zolik funksiyasi;
+	
+	\item $\mu_{A\cap B}(x)=\min{\mu_A(x), \mu_B(x)}$ - $A \cap B$ fazzi to'plamning a'zolik funksiyasi;
+	
+	\item $A\setminus B$ fazzi to'plamning a'zolik funksiyasi:
+	\[
+	\mu_{A\setminus B}(x)=
+	\begin{cases}
+		\mu_A(x)-\mu_B(x), & \text{agar }\mu_A(x)\geq \mu_B(x)\text{ bo'lsa} \\
+		0, & \text{aks holda}
+	\end{cases}
+	\] 
+\end{itemize}
 
 
-
+	
+\end{document}\documentclass{article}
